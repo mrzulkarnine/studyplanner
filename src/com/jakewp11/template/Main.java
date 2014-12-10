@@ -48,7 +48,7 @@ public class Main extends Activity {
         setContentView(R.layout.main);
         webView = (WebView)findViewById(R.id.fullscreen_content);
         webView.setWebViewClient(new MyWebViewClient());
-        webView.loadUrl("file:///android_asset/www/index.php");
+        webView.loadUrl("file:///android_asset/www/login.php");
         //you can also link to a website. Example:
         //webView.loadUrl("www.google.com");
         //I have included web permissions in the AndroidManifest.xml
